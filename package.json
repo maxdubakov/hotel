@@ -1,0 +1,27 @@
+{
+  "name": "hotel_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Max-7th-byte/hotel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Max-7th-byte/hotel/issues"
+  },
+  "homepage": "https://github.com/Max-7th-byte/hotel#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "nodemailer": "^6.4.6",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
